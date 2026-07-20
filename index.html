@@ -45,6 +45,7 @@
       overflow: hidden;
     }
 
+    /* Red top stripe */
     .top-stripe {
       height: 3px;
       background: var(--red);
@@ -54,6 +55,7 @@
       padding: 2.75rem 2.5rem 2.5rem;
     }
 
+    /* Wordmark */
     .wordmark {
       font-family: 'Bebas Neue', sans-serif;
       font-size: clamp(3.5rem, 13vw, 5.5rem);
@@ -62,6 +64,7 @@
       color: var(--text);
     }
 
+    /* Subtitle band */
     .subtitle-band {
       background: var(--surface2);
       border-top: 2px solid var(--red);
@@ -75,6 +78,7 @@
       color: var(--text);
     }
 
+    /* Badge */
     .badge {
       display: inline-block;
       font-size: 0.68rem;
@@ -87,37 +91,6 @@
       margin-bottom: 1.5rem;
     }
 
-    /* Vacation banner */
-    .vacation {
-      background: var(--surface2);
-      border: 1px solid var(--border2);
-      border-left: 3px solid var(--red);
-      padding: 1.25rem 1.5rem;
-      margin-bottom: 1.75rem;
-      text-align: left;
-    }
-
-    .vacation-title {
-      font-weight: 600;
-      font-size: 0.95rem;
-      color: var(--text);
-      margin-bottom: 0.3rem;
-    }
-
-    .vacation-dates {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 1.4rem;
-      letter-spacing: 0.06em;
-      color: var(--text);
-      margin-bottom: 0.5rem;
-    }
-
-    .vacation-note {
-      font-size: 0.82rem;
-      color: var(--muted);
-      line-height: 1.6;
-    }
-
     .message {
       font-size: 0.95rem;
       color: #aaa;
@@ -125,6 +98,7 @@
       margin-bottom: 2rem;
     }
 
+    /* CTA */
     .btn {
       display: inline-flex;
       align-items: center;
@@ -149,6 +123,7 @@
       transform: none;
     }
 
+    /* Contact */
     .contact {
       margin-top: 2rem;
       padding-top: 1.5rem;
@@ -165,6 +140,7 @@
       color: var(--text);
     }
 
+    /* Bottom stripe */
     .bottom-stripe {
       height: 2px;
       background: var(--border);
@@ -179,7 +155,6 @@
 
     @media (max-width: 480px) {
       .inner { padding: 2rem 1.25rem 1.75rem; }
-      .vacation { padding: 1rem 1.25rem; }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -199,20 +174,15 @@
 
       <div class="badge">Website im Aufbau</div>
 
-      <div class="vacation">
-        <div class="vacation-title">Wir sind im Urlaub</div>
-        <div class="vacation-dates">13.07.26 - 20.07.26 (KW29)</div>
-        <div class="vacation-note">Ab dem 20.07.26 sind wir wieder für Sie da und nehmen Ihre Anfragen entgegen.</div>
-      </div>
-
       <p class="message">
+        Unsere Website wird gerade neu aufgebaut.<br>
         In der Zwischenzeit finden Sie unser<br>
         gesamtes Angebot auf Kleinanzeigen.
       </p>
 
       <a
         class="btn"
-        href="https://www.kleinanzeigen.de/pro/wepa-maschinenverleih?msockid=39838dd82ac46e8b11949b322bde6fe8"
+        href="https://www.kleinanzeigen.de/pro/wepa-maschinenverleih"
         target="_blank"
         rel="noopener noreferrer"
       >
